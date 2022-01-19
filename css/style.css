@@ -126,12 +126,13 @@ img {
     background: #fff;
     padding: 10px;
     border-radius: 10px;
-    top: 80px;
-    transform: scaleY(0);
+    top: 50%;
+    /* transform: scaleY(0); */
     z-index: 9999;
     width: 130px;
+    opacity: 0;
 }
-.nav-item:hover .dropdown-box{transform: scaleY(1);}
+.nav-item:hover .dropdown-box{/* transform: scaleY(1); */opacity: 1;top: 100%;}
 .nav-item .dropdown-box ul{
     list-style: none;
     padding: 0;
