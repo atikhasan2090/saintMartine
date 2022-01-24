@@ -770,13 +770,11 @@ footer .main-footer .desh li{
 }
 footer .main-footer .desh li:hover{
 	transform:translate(2px , 2px);
+	color: #fe5c24;
 }
 		
 footer .main-footer .desh li a{
     color: #fff;
-}
-footer .main-footer .desh li a:hover{
-    color: #fe5c24;
 }
 footer form{}
 footer form input.email{
