@@ -118,6 +118,12 @@ img {
 	color: #fe5c24 !important;
 }
 
+.nav-link i{
+	transition:1s ease;
+}
+.nav-link:hover i{
+	transform: rotate(180deg);
+}
 .nav-item{
     position: relative;
 }
